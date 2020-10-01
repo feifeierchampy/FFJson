@@ -1,0 +1,4 @@
+include ':json-annotation-processor'
+include ':json-annotation'
+include ':app'
+rootProject.name = "JsonParser"
