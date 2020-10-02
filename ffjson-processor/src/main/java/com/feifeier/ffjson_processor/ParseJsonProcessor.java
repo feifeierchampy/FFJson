@@ -1,4 +1,4 @@
-package com.feifeier.json_annotation_processor;
+package com.feifeier.ffjson_processor;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,7 +24,7 @@ import javax.lang.model.element.VariableElement;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
 
-import com.feifeier.json_annotation.SerializedName;
+import com.feifeier.ffjson_annotation.SerializedName;
 import com.google.auto.service.AutoService;
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.JavaFile;

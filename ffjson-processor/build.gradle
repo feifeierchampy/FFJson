@@ -1,0 +1,26 @@
+apply plugin: 'java-library'
+apply plugin: 'com.novoda.bintray-release'
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.auto.service:auto-service:1.0-rc3'
+    implementation 'com.squareup:javapoet:1.9.0'
+    implementation project(':ffjson-annotation')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+//推送到Bintray配置
+publish {
+    userOrg = 'com-feifeier'
+
+    groupId = 'com.feifeier'
+    //项目名称
+    artifactId = 'ffjson-processor'
+    //版本号
+    publishVersion = PUBLISH_VERSION
+    //项目介绍，可以不写
+    desc = 'FFJson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object'
+    //项目主页，可以不写
+    website = 'https://github.com/feifeierchampy/FFJson'
+}

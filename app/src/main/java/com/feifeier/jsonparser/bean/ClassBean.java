@@ -1,9 +1,10 @@
 package com.feifeier.jsonparser.bean;
 
 
-import com.feifeier.json_annotation.SerializedName;
-
 import java.util.ArrayList;
+
+import com.feifeier.ffjson_annotation.SerializedName;
+
 
 /***************************************************************************************************
  * 描述：

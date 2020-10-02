@@ -1,4 +1,4 @@
-include ':json-annotation-processor'
-include ':json-annotation'
+include ':ffjson-processor'
+include ':ffjson-annotation'
 include ':app'
-rootProject.name = "JsonParser"
+rootProject.name = "FFJson"

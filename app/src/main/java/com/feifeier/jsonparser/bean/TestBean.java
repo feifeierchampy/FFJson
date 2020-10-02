@@ -3,7 +3,8 @@ package com.feifeier.jsonparser.bean;
 
 import java.util.List;
 
-import com.feifeier.json_annotation.SerializedName;
+import com.feifeier.ffjson_annotation.SerializedName;
+
 
 /***************************************************************************************************
  * 描述：

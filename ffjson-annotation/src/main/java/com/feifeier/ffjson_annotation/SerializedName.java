@@ -1,4 +1,4 @@
-package com.feifeier.json_annotation;
+package com.feifeier.ffjson_annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

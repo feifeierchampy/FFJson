@@ -1,4 +1,4 @@
-package com.feifeier.json_annotation_processor;
+package com.feifeier.ffjson_processor;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
