@@ -29,7 +29,7 @@ public class PersonBean {
 }
 ```
 
-3. 自动生成解析代码
+3. 自动生成解析代码  
 Build -> Make Project
 会生成`XXX_JsonUtils`类
 通过`toJson` `fromJson`方法实现序列化和反序列化

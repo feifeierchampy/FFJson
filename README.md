@@ -28,7 +28,7 @@ public class PersonBean {
 }
 ```
 
-3. generate parse code
+3. generate parse code  
 Build -> Make Project  
 will generate `XXX_JsonUtils`class
 use`toJson` `fromJson` method to implement serialization and deserialization
